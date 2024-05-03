@@ -10,6 +10,7 @@ var crypto = require("crypto");
 var expressValidator = require("express-validator");
 var sweetalert = require("sweetalert2");
 var bodyParser = require("body-parser");
+var db = require("./models/db_controller");
 
 const http = require("http");
 
